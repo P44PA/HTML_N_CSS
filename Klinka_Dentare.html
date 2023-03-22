@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klinika Dentare</title>
+
+    <style>
+
+        div.image{
+            position:absolute ;top: 0px; left: 10px;
+           
+        }
+       
+
+header{
+    display: flex;
+    background-color:white;
+    
+}
+div{
+    font-family:Impact,  'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+div.home{
+    border: none;
+    position: absolute;top: 10px;right:780px;
+    
+}
+div.About{
+    border: none;
+    flex-grow:0.01;
+    position: absolute;top: 10px;right:700px;
+    
+}
+div.services{
+    border: none;
+    flex-grow:0.01;
+    position: absolute;top: 10px;right:600px;
+}
+
+div.results{
+    border: none;
+    flex-grow:0.01;
+    position: absolute;top: 10px;right:510px;
+
+}
+div.resources{
+    border: none;
+    position: absolute;top: 10px;right:390px;
+    
+}
+
+div.News{
+    border: none;
+    position: absolute;top: 10px;right:310px;
+    
+}
+div.Hello{
+    position: relative ;top:30px; left: 40%;
+    color:skyblue;
+}
+div.login{
+    position: absolute;top: 10px;right:105px;
+
+}
+.flexbox{
+    position: absolute;top: 10px; right: 150px;
+    float: right;
+    background-color:white;
+    border-color:black;
+    border-radius: 10; 
+   
+}
+
+div.log_sign{
+    position: absolute;top: 10px; right: 0px
+}
+
+div.imgbody{
+    text-align: right;
+}
+div.imgbody2{
+    position: absolute; top:200px;
+
+}
+
+div.thenia{
+    position:absolute;  top:200px ; left: 750px;
+    text-align: center;
+}
+
+.header-1 {
+  
+  width: 80%;
+  font-size: 60px;
+  font-weight: 600;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;   
+}
+ 
+
+.header-1{
+  background-image: repeating-radial-gradient(farthest-side at 5px 5px,black, skyblue);
+}
+
+.footer{
+    background:#333;
+    color: #efefef;
+    display: flex;
+    margin-top: 150px;
+    padding: 70px 10px;
+    position:absolute;bottom: 0px;right: 0px;left: 0px;
+    
+}
+
+.footer div{
+    text-align:center;
+    flex-grow: 0.1;
+}
+
+div.lista{
+    margin-top: 10px;
+}
+.btn-two {
+  color: #FFF;
+  transition: all 0.5s;
+  position:relative; 
+  flex-grow: 0.1;
+}
+.btn-two span {
+  z-index: 2; 
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+}
+.btn-two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid #333;
+  background-color: #333;
+}
+.btn-two::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
+.box-2 { background-color: #3C3C3C; 
+    position: absolute; right: 80px;
+}
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+iframe{
+    position:absolute; right: 550px;
+}
+div.linqe{
+    position: absolute ;left: 450px;
+}
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+<header>
+    <span class="image">
+        <img src="https://media.licdn.com/dms/image/C560BAQGHLGMfMbpQdA/company-logo_400_400/0/1635520880488?e=2147483647&v=beta&t=_g6TyRe5iByrfCoApW_qffwW5PrBsWcvfHoUwvmL-PE" width="250" height="150" alt="">
+    </span>
+   
+    <div class="home">
+        <a style="text-decoration:none; color: skyblue;" href="" target="_blank">Home</a>
+    </div>
+
+    <div class="About">
+        <a href=" " style="text-decoration:none; color: skyblue;" target="_blank"> About</a>
+    </div>
+
+    <div class="services">
+        <a href="" style="text-decoration:none; color: skyblue;" target="_blank">Services</a>
+    </div>
+
+    <div class="results">
+        <a href="" style="text-decoration:none; color: skyblue;" target="_blank">Results</a>
+
+    </div>
+    <div class="resources">
+        <a href="" style="text-decoration:none; color: skyblue;" target="_blank">Resources</a>
+
+    </div>
+    <div class="News">
+        <a href="" style="text-decoration:none; color: skyblue;" target="_blank">News</a>
+    </div>
+
+    <div class="Hello">
+        <h3>Call +35 567 20 73 770 to make an appointment today!</h3>
+    </div>
+
+    <div class="login">
+        <img src="https://download.logo.wine/logo/Microsoft_account/Microsoft_account-Logo.wine.png"  width="40" height="30" alt="">
+    </div>
+
+    <div class="flexbox">
+        <div class="search">
+          <div>
+            <input type="text" placeholder="Search . . ." required>
+          </div>
+        </div>
+      </div>
+
+
+<div class="log_sign">
+    <a href="" style="text-decoration:none; color: skyblue;" target="_blank">LogIn /</a>
+    <a href="" style="text-decoration:none; color: skyblue;" target="_blank">SignIn</a>
+</div>
+</header>
+<div class="imgbody">
+    <img src="https://www.montgomerydentalcare.com/wp-content/uploads/2015/06/home-rotator-sylvia.png" height="600" width="600" alt="">
+</div>
+<div class="imgbody2">
+    <img src="https://www.abbadent.com/wp-content/uploads/teeth-2001.jpg" height="600" width="600" alt="">
+</div>
+
+<div class="thenia">
+    <h1 class="header-1">Your Smile</h1>
+    <h1 class="header-1">Says More Than Words</h1>
+</div>
+    
+<footer class="footer">
+
+<div class="imagef">
+    <img src="https://media.licdn.com/dms/image/C560BAQGHLGMfMbpQdA/company-logo_400_400/0/1635520880488?e=2147483647&v=beta&t=_g6TyRe5iByrfCoApW_qffwW5PrBsWcvfHoUwvmL-PE" width="150" height="100" alt="">
+</div>
+
+<div class="linqe">
+    <h6>Follow Us</h6>
+    
+<a href="https://www.facebook.com/dentalturkalbania"  target="_blank"><img src="http://pluspng.com/img-png/facebook-hd-png-facebook-png-hd-png-image-2023.png" alt="" width="50" height="50"></a>
+<a class="linku" href="https://twitter.com"  target="_blank"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-1.png" alt="" width="50" height="50"></a>
+<a href="tel:+35 567 20 73 770"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" alt="" width="50" height="50"></a>
+<a href="https://www.instagram.com/dental_turk/"  target="_blank"><img src="https://tse2.mm.bing.net/th?id=OIP.a79lFASb51Dm0KOM6UR7CwHaHa&pid=Api&P=0" alt="" width="50" height="50"></a>
+<a href="customercare@dentalturk.a"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-3bCBn8nFtuib0bGS_WKmUlZc-zjhwaX0ec0LEjItLKIQpMtimHKQUP9ghi94Dc0I6XA&usqp=CAU" width="50" height="50" alt="" style="flex-grow: 1;"></a>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.6528492649286!2d19.80153785131616!3d41.338161606905764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135031a1b2a0c6d3%3A0x9b248c09c741c800!2sDental%20Turk!5e0!3m2!1sen!2sus!4v1679502919030!5m2!1sen!2sus" style="flex-grow: 0.1;" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- Hover #2 -->
+<div class="box-2">
+    <div class="btn btn-two">
+      <span>Make an appointment</span>
+    </div>
+  </div>
+
+</footer>
+    
+
+    
+</body>
+</html>

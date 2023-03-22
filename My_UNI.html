@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My UNI</title>
+    
+    <style>
+        body{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.AOHdyRj5KKFDzVefdv-3GAAAAA&pid=Api&P=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+div.rreth{
+    position:absolute; top:10px; right: 850px;
+    border-style:groove;
+    border-radius: 10px;
+    border-color:black;
+     border-radius: 20; 
+    background-color:rgb(14, 180, 39);
+    width: 100px;
+    text-align: center;
+    color: green;
+}
+div.progr{
+    position:absolute; top:10px ; right: 640px;
+    border-style:groove;
+    border-radius: 10px;
+    border-color:black;
+     border-radius: 20; 
+     background-color:rgb(14, 180, 39);
+    width: 200px;
+    text-align: center;
+}
+div.faku{
+    position:absolute; top:10px ; right: 430px;
+    border-style:groove;
+    border-radius: 10px;
+    border-color:black;
+     border-radius: 20; 
+     background-color:rgb(14, 180, 39);
+    width: 200px;
+    text-align: center;
+}
+
+div.sherbimet{
+    position:absolute; top:10px ; right: 220px;
+    border-style:groove;
+    border-radius: 10px;
+    border-color:black;
+     border-radius: 20; 
+     background-color:rgb(14, 180, 39);
+    width: 200px;
+    text-align: center;
+}
+
+
+
+.flexbox{
+    position: absolute;top: 10px; right: 50px;
+    float: right;
+    
+    background-color: beige;
+    border-color:black;
+    border-radius: 20; 
+   
+}
+
+
+
+
+
+a {
+overflow: hidden;
+position: relative;
+display: inline-block;
+}
+
+a::before,
+a::after {
+content: '';
+position: absolute;
+width: 100%;
+left: 0;
+}
+a::before {
+background-color: #54b3d6;
+height: 2px;
+bottom: 0;
+transform-origin: 100% 50%;
+transform: scaleX(0);
+transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+a::after {
+content: attr(data-replace);
+height: 100%;
+top: 0;
+transform-origin: 100% 50%;
+transform: translate3d(200%, 0, 0);
+transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+color: #54b3d6;
+}
+
+a:hover::before {
+transform-origin: 0% 50%;
+transform: scaleX(1);
+}
+a:hover::after {
+transform: translate3d(0, 0, 0);
+}
+
+a span {
+display: inline-block;
+transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+a:hover span {
+transform: translate3d(-200%, 0, 0);
+}
+
+
+a {
+text-decoration: none;
+color:white;
+font-weight: 700;
+vertical-align: top;
+}
+
+div.Hello{
+text-align: center;
+font-size: 70px;
+color:white;
+}
+
+
+
+
+.footer{
+    background: #333;
+    color: #efefef;
+    display: flex;
+    margin-top: 150px;
+    padding: 70px 10px;
+    position:absolute;bottom: 0px;right: 0px;left: 0px;
+    
+}
+
+.footer div{
+    text-align:center;
+}
+.col2{
+    flex-grow: 1;
+}
+    </style>
+</head>
+<body>
+
+    <div class="img">
+        <img src="https://brandeps.com/logo-download/U/Universiteti-Polis-logo-vector-01.svg" alt="Polis Logo " height="200" width="200">
+    </div>
+
+    <div class="rreth">
+        <a href="" target="_blank">Rreth Nesh</a>
+    </div>
+
+    <div class="progr">
+        <a href=" " target="_blank">  Programet e studimit  </a>
+    </div>
+
+    <div class="faku">
+        <a href="" target="_blank">Fakultetet dhe Stafi</a>
+    </div>
+
+    <div class="sherbimet">
+        <a href="">Sherbimet Studentore</a>
+    </div>
+
+    <div class="flexbox">
+        <div class="search">
+          <div>
+            <input type="text" placeholder="Search . . ." required>
+          </div>
+        </div>
+      </div>
+
+    <div class="Hello">
+        <h1> <a href="#" id="style-2" data-replace="Mire se Vini ne POLIS"><span>Mire se Vini ne POLIS</span></a></h1>
+    </div>
+
+   
+<footer class="footer"> 
+
+    <div class="col1">
+        <h3>Kontakt</h3>
+        <a href="tel:+355 42407420" data-replace="+355 42407420">+355 42407420</a><br>
+        <a href="tel:+355 42407421" data-replace="+355 42407421">+355 42407421</a><br>
+        
+        <a href="mailto:contact@universitetipolis.edu.al" data-replace="contact@universitetipolis.edu.al" target="_blank"><span style=" color: #efefef">contact@universitetipolis.edu.al</span></a><br>
+        <a href="https://www.google.com/maps/place/POLIS+University/@41.3525324,19.7504196,15z/data=!4m6!3m5!1s0x13502e19735db247:0x25413350f84cc52f!8m2!3d41.3525324!4d19.7504196!16s%2Fm%2F0cpbdt5"  data-replace="Adresa" target="_blank"><span style=" color: #efefef">Adresa</span></a>
+    </div>
+    
+    <div class="col2">
+        <h3>Follow us</h3><br>
+        <a href="https://www.instagram.com/polisuniversity/"  target="_blank"><img src="https://tse2.mm.bing.net/th?id=OIP.a79lFASb51Dm0KOM6UR7CwHaHa&pid=Api&P=0" alt="" width="50" height="50"><br>
+           <br> <a href="https://www.facebook.com/polisuniversity/"  target="_blank"><img src="http://pluspng.com/img-png/facebook-hd-png-facebook-png-hd-png-image-2023.png" alt="" width="50" height="50"></a>
+            <a class="linku"href="https://www.youtube.com/user/mireda10"  target="_blank"><img src="https://1.bp.blogspot.com/-qdRfUNOtjkM/XeI_00z9pzI/AAAAAAAAF4E/FeD2SvVFnKUjPAKQ_cNM6-D2ahjKb0HkQCLcBGAsYHQ/s1600/Youtube-Icon-square-2340x2340-2.png" alt="" width="50" height="50"></a>
+            <a class="linku" href="https://twitter.com/u_polis"  target="_blank"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-1.png" alt="" width="50" height="50"></a><br>
+
+
+    </div>
+    <div class="col3">
+        <a href="My_UNI.html"><img src="https://brandeps.com/logo-download/U/Universiteti-Polis-logo-vector-01.svg" alt="Polis Logo " height="200" width="200"></a>
+    </div>
+   
+</footer>
+
+
+    
+</body>
+</html>
